@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Qranio",
+    "id": "qranio",
+    "image": "...",
+    "description": "Qranio is an online platform...",
+    "year": 2015,
+    "employer": "Qranio.com",
+    "responsibilities": [
+      "Art direction and design of the iOS app",
+      "Designed and programmed the Windows app",
+      "Designed elements of the Android app"
+    ],
+    "challenges": "Qranio is an online platform...",
+    "results": "Qranio is an online platform..."
+  },
+  {
+    "name": "Qranio 2",
+    "id": "qranio",
+    "image": "...",
+    "description": "Qranio is an online platform...",
+    "year": 2015,
+    "employer": "Qranio.com",
+    "responsibilities": [
+      "Art direction and design of the iOS app",
+      "Designed and programmed the Windows app",
+      "Designed elements of the Android app"
+    ],
+    "challenges": "Qranio is an online platform...",
+    "results": "Qranio is an online platform..."
+  },
+  {
+    "name": "Qranio 3",
+    "id": "qranio",
+    "image": "...",
+    "description": "Qranio is an online platform...",
+    "year": 2015,
+    "employer": "Qranio.com",
+    "responsibilities": [
+      "Art direction and design of the iOS app",
+      "Designed and programmed the Windows app",
+      "Designed elements of the Android app"
+    ],
+    "challenges": "Qranio is an online platform...",
+    "results": "Qranio is an online platform..."
+  }
+]
