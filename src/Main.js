@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
 
-import ProfilePhoto from './home_photo.png'
+import ProfilePhoto from './images/home_photo.jpg'
 
 const Main = styled.section`
   display: flex;
