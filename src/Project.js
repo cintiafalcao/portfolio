@@ -2,6 +2,8 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 
+const thumb = require.context('./thumbs', true);
+
 const Project = styled.article`
   display: flex;
   flex-direction: row;
@@ -20,6 +22,10 @@ const Right = styled.div`
   text-align: center;
 `
 
+const Image = styled.img`
+
+`
+
 const Button = styled.button`
   background: none;
   border-width: 1px;
@@ -27,6 +33,7 @@ const Button = styled.button`
   border-image-slice: 1;
   padding: 0.7em 2.5em;
   cursor: pointer;
+  margin-top:5px;
 `
 
 const Name = styled.h1`
@@ -125,7 +132,7 @@ export default project =>
       <Results>{project.results}</Results>
     </Info>
     <Right>
-      <img src="http://"/>
+      <Image src={thumb(project.image)}/>
       <Link to={`case/${project.id}`}>
         <Button>View case</Button>
       </Link>

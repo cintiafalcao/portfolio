@@ -1,12 +1,12 @@
 import React from 'react'
 
 import { Image, Project, Title, Text } from '../Case.js'
-import cover from '../images/qranio/cover.jpg'
-import img_1 from '../images/qranio/f1.jpg'
-import img_2 from '../images/qranio/f2.jpg'
-import img_3 from '../images/qranio/f3.jpg'
-import img_4 from '../images/qranio/f4.jpg'
-import img_5 from '../images/qranio/f5.jpg'
+import cover from '../images/paintings/cover.jpg'
+import img_1 from '../images/paintings/f1.jpg'
+import img_2 from '../images/paintings/f2.jpg'
+import img_3 from '../images/paintings/f3.jpg'
+import img_4 from '../images/paintings/f4.jpg'
+import img_5 from '../images/paintings/f5.jpg'
 
 export default props =>
   <Project>

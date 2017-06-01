@@ -2,7 +2,7 @@
   {
     "name": "Qranio",
     "id": "qranio",
-    "image": "...",
+    "image": "./qranio.jpg",
     "description": "Qranio is an online platform...",
     "year": 2015,
     "employer": "Qranio.com",
@@ -15,12 +15,12 @@
     "results": "Qranio is an online platform..."
   },
   {
-    "name": "Qranio 2",
-    "id": "qranio",
-    "image": "...",
+    "name": "Docbrown",
+    "id": "docbrown",
+    "image": "./docbrown.jpg",
     "description": "Qranio is an online platform...",
-    "year": 2015,
-    "employer": "Qranio.com",
+    "year": 2014,
+    "employer": "Docbrown",
     "responsibilities": [
       "Art direction and design of the iOS app",
       "Designed and programmed the Windows app",
@@ -30,11 +30,251 @@
     "results": "Qranio is an online platform..."
   },
   {
-    "name": "Qranio 3",
-    "id": "qranio",
-    "image": "...",
+    "name": "Pedra Sul",
+    "id": "pedrasul",
+    "image": "./pedrasul.jpg",
     "description": "Qranio is an online platform...",
-    "year": 2015,
+    "year": 2014,
+    "employer": "Pedra Sul",
+    "responsibilities": [
+      "Art direction and design of the iOS app",
+      "Designed and programmed the Windows app",
+      "Designed elements of the Android app"
+    ],
+    "challenges": "Qranio is an online platform...",
+    "results": "Qranio is an online platform..."
+  },
+  {
+    "name": "Devoradores de Livros",
+    "id": "devoradores",
+    "image": "./devoradores.jpg",
+    "description": "Qranio is an online platform...",
+    "year": 2014,
+    "employer": "Devoradores de Livros",
+    "responsibilities": [
+      "Art direction and design of the iOS app",
+      "Designed and programmed the Windows app",
+      "Designed elements of the Android app"
+    ],
+    "challenges": "Qranio is an online platform...",
+    "results": "Qranio is an online platform..."
+  },
+  {
+    "name": "Saramandaia",
+    "id": "saramandaia",
+    "image": "./saramandaia.jpg",
+    "description": "Qranio is an online platform...",
+    "year": 2014,
+    "employer": "Ato Interativo",
+    "responsibilities": [
+      "Art direction and design of the iOS app",
+      "Designed and programmed the Windows app",
+      "Designed elements of the Android app"
+    ],
+    "challenges": "Qranio is an online platform...",
+    "results": "Qranio is an online platform..."
+  },
+  {
+    "name": "Diego Reis Advocacia",
+    "id": "diegoreis",
+    "image": "./adv_diego.jpg",
+    "description": "Qranio is an online platform...",
+    "year": 2014,
+    "employer": "Diego Reis",
+    "responsibilities": [
+      "Art direction and design of the iOS app",
+      "Designed and programmed the Windows app",
+      "Designed elements of the Android app"
+    ],
+    "challenges": "Qranio is an online platform...",
+    "results": "Qranio is an online platform..."
+  },
+  {
+    "name": "Vamos Desenhar",
+    "id": "vamosdesenhar",
+    "image": "./vamosdesenhar.jpg",
+    "description": "Qranio is an online platform...",
+    "year": 2013,
+    "employer": "Polo Marte",
+    "responsibilities": [
+      "Art direction and design of the iOS app",
+      "Designed and programmed the Windows app",
+      "Designed elements of the Android app"
+    ],
+    "challenges": "Qranio is an online platform...",
+    "results": "Qranio is an online platform..."
+  },
+  {
+    "name": "BuzzFeat",
+    "id": "buzzfeat",
+    "image": "./buzzfeat.jpg",
+    "description": "Qranio is an online platform...",
+    "year": 2013,
+    "employer": "Ato Interativo",
+    "responsibilities": [
+      "Art direction and design of the iOS app",
+      "Designed and programmed the Windows app",
+      "Designed elements of the Android app"
+    ],
+    "challenges": "Qranio is an online platform...",
+    "results": "Qranio is an online platform..."
+  },
+  {
+    "name": "ABCD",
+    "id": "abcd",
+    "image": "./abcd.jpg",
+    "description": "Qranio is an online platform...",
+    "year": 2013,
+    "employer": "Aprimorar",
+    "responsibilities": [
+      "Art direction and design of the iOS app",
+      "Designed and programmed the Windows app",
+      "Designed elements of the Android app"
+    ],
+    "challenges": "Qranio is an online platform...",
+    "results": "Qranio is an online platform..."
+  },
+  {
+    "name": "Aline Cruz",
+    "id": "aline",
+    "image": "./aline.jpg",
+    "description": "Qranio is an online platform...",
+    "year": 2013,
+    "employer": "Aprimorar",
+    "responsibilities": [
+      "Art direction and design of the iOS app",
+      "Designed and programmed the Windows app",
+      "Designed elements of the Android app"
+    ],
+    "challenges": "Qranio is an online platform...",
+    "results": "Qranio is an online platform..."
+  },
+  {
+    "name": "Loja da Seda",
+    "id": "lojadaseda",
+    "image": "./lojadaseda.jpg",
+    "description": "Qranio is an online platform...",
+    "year": 2012,
+    "employer": "Ato Iterativo",
+    "responsibilities": [
+      "Art direction and design of the iOS app",
+      "Designed and programmed the Windows app",
+      "Designed elements of the Android app"
+    ],
+    "challenges": "Qranio is an online platform...",
+    "results": "Qranio is an online platform..."
+  },
+  {
+    "name": "Pé na Cova",
+    "id": "penacova",
+    "image": "./penacova.jpg",
+    "description": "Qranio is an online platform...",
+    "year": 2012,
+    "employer": "Ato interativo",
+    "responsibilities": [
+      "Art direction and design of the iOS app",
+      "Designed and programmed the Windows app",
+      "Designed elements of the Android app"
+    ],
+    "challenges": "Qranio is an online platform...",
+    "results": "Qranio is an online platform..."
+  },
+  {
+    "name": "Sola",
+    "id": "sola",
+    "image": "./sola.jpg",
+    "description": "Qranio is an online platform...",
+    "year": 2012,
+    "employer": "Ato Interativo",
+    "responsibilities": [
+      "Art direction and design of the iOS app",
+      "Designed and programmed the Windows app",
+      "Designed elements of the Android app"
+    ],
+    "challenges": "Qranio is an online platform...",
+    "results": "Qranio is an online platform..."
+  },
+  {
+    "name": "Privilège",
+    "id": "privilege",
+    "image": "./privileged2.jpg",
+    "description": "Qranio is an online platform...",
+    "year": 2010,
+    "employer": "Ato Interativo",
+    "responsibilities": [
+      "Art direction and design of the iOS app",
+      "Designed and programmed the Windows app",
+      "Designed elements of the Android app"
+    ],
+    "challenges": "Qranio is an online platform...",
+    "results": "Qranio is an online platform..."
+  },
+  {
+    "name": "Rio Property Services",
+    "id": "rioproperty",
+    "image": "./rioproperty.jpg",
+    "description": "Qranio is an online platform...",
+    "year": 2010,
+    "employer": "Pura Comunicação",
+    "responsibilities": [
+      "Art direction and design of the iOS app",
+      "Designed and programmed the Windows app",
+      "Designed elements of the Android app"
+    ],
+    "challenges": "Qranio is an online platform...",
+    "results": "Qranio is an online platform..."
+  },
+  {
+    "name": "Reptil",
+    "id": "reptil",
+    "image": "./reptil.jpg",
+    "description": "Qranio is an online platform...",
+    "year": 2008,
+    "employer": "Pura Comunicação",
+    "responsibilities": [
+      "Art direction and design of the iOS app",
+      "Designed and programmed the Windows app",
+      "Designed elements of the Android app"
+    ],
+    "challenges": "Qranio is an online platform...",
+    "results": "Qranio is an online platform..."
+  },
+  {
+    "name": "FIT",
+    "id": "fit",
+    "image": "./fit.jpg",
+    "description": "Qranio is an online platform...",
+    "year": 2008,
+    "employer": "Pura Comunicação",
+    "responsibilities": [
+      "Art direction and design of the iOS app",
+      "Designed and programmed the Windows app",
+      "Designed elements of the Android app"
+    ],
+    "challenges": "Qranio is an online platform...",
+    "results": "Qranio is an online platform..."
+  },
+  {
+    "name": "Marcelo D2",
+    "id": "marcelod2",
+    "image": "./marcelod2.jpg",
+    "description": "Qranio is an online platform...",
+    "year": 2005,
+    "employer": "Pura Comunicação",
+    "responsibilities": [
+      "Art direction and design of the iOS app",
+      "Designed and programmed the Windows app",
+      "Designed elements of the Android app"
+    ],
+    "challenges": "Qranio is an online platform...",
+    "results": "Qranio is an online platform..."
+  },
+  {
+    "name": "Paintings",
+    "id": "paintings",
+    "image": "./paintings.jpg",
+    "description": "Qranio is an online platform...",
+    "year": 2001,
     "employer": "Qranio.com",
     "responsibilities": [
       "Art direction and design of the iOS app",

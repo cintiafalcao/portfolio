@@ -1,13 +1,49 @@
 import React from 'react'
 import styled from 'styled-components'
 
+import Abcd from './projects/Abcd'
+import Advdiego from './projects/Advdiego'
+import Aline from './projects/Aline'
+import Buzzfeat from './projects/Buzzfeat'
+import Devoradores from './projects/Devoradores'
+import DocBrown from './projects/DocBrown'
+import Fit from './projects/Fit'
+import Lojadaseda from './projects/Lojadaseda'
+import Marcelod2 from './projects/Marcelod2'
+import Paintings from './projects/Paintings'
+import Pedrasul from './projects/Pedrasul'
+import Penacova from './projects/Penacova'
+import Privilege from './projects/Privilege'
 import Qranio from './projects/Qranio'
+import Reptil from './projects/Reptil'
+import Rioproperty from './projects/Rioproperty'
+import Saramandaia from './projects/Saramandaia'
+import Sola from './projects/Sola'
+import Vamosdesenhar from './projects/Vamosdesenhar'
 
 const NotFound = () =>
   <h1>Case not found...</h1>
 
 const pages = {
+  abcd: <Abcd />,
+  diegoreis: <Advdiego />,
+  aline: <Aline />,
+  buzzfeat: <Buzzfeat />,
+  devoradores: <Devoradores />,
+  docbrown: <DocBrown />,
+  fit: <Fit />,
+  lojadaseda: <Lojadaseda />,
+  marcelod2: <Marcelod2 />,
+  paintings: <Paintings />,
+  pedrasul: <Pedrasul />,
+  penacova: <Penacova />,
+  privilege: <Privilege />,
   qranio: <Qranio />,
+  reptil: <Reptil />,
+  rioproperty: <Rioproperty />,
+  saramandaia: <Saramandaia />,
+  sola: <Sola />,
+  vamosdesenhar: <Vamosdesenhar />,
 }
 
 export const Title = styled.h1`

@@ -1,12 +1,10 @@
 import React from 'react'
 
 import { Image, Project, Title, Text } from '../Case.js'
-import cover from '../images/qranio/cover.jpg'
-import img_1 from '../images/qranio/f1.jpg'
-import img_2 from '../images/qranio/f2.jpg'
-import img_3 from '../images/qranio/f3.jpg'
-import img_4 from '../images/qranio/f4.jpg'
-import img_5 from '../images/qranio/f5.jpg'
+import cover from '../images/aline/cover.jpg'
+import img_1 from '../images/aline/f1.jpg'
+import img_2 from '../images/aline/f2.jpg'
+import img_3 from '../images/aline/f3.jpg'
 
 export default props =>
   <Project>
@@ -20,8 +18,4 @@ export default props =>
     <Image src={img_2} alt='Qranio Interna' />
     <Title>Design icons</Title>
     <Image src={img_3} alt='Qranio Interna' />
-    <Title>Design icons</Title>
-    <Image src={img_4} alt='Qranio Interna' />
-    <Title>Design icons</Title>
-    <Image src={img_5} alt='Qranio Interna' />
   </Project>
