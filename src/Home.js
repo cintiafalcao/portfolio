@@ -34,7 +34,7 @@ export default class extends Component {
         <Menu visible={this.state.menuActive} />
         <MenuButton onClick={this.toggleMenu}>🍔</MenuButton>
         <Main />
-        <Timeline />
+        <Timeline filter={p => p.featured} />
       </Home>
     );
   }
