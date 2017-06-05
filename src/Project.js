@@ -23,7 +23,8 @@ const Right = styled.div`
 `
 
 const Image = styled.img`
-
+  align-self: center;
+  max-width: 100%;
 `
 
 const Button = styled.button`

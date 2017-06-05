@@ -115,7 +115,8 @@ export class Project extends React.Component {
 }
 
 export const Image = styled.img`
-  width: 100%;
+  align-self: center;
+  max-width: 100%;
 `
 
 export default ({ match }) => {
