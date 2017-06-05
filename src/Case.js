@@ -25,25 +25,25 @@ const NotFound = () =>
   <h1>Case not found...</h1>
 
 const pages = {
-  abcd: <Abcd />,
-  diegoreis: <Advdiego />,
-  aline: <Aline />,
-  buzzfeat: <Buzzfeat />,
-  devoradores: <Devoradores />,
-  docbrown: <DocBrown />,
-  fit: <Fit />,
-  lojadaseda: <Lojadaseda />,
-  marcelod2: <Marcelod2 />,
-  paintings: <Paintings />,
-  pedrasul: <Pedrasul />,
-  penacova: <Penacova />,
-  privilege: <Privilege />,
-  qranio: <Qranio />,
-  reptil: <Reptil />,
-  rioproperty: <Rioproperty />,
-  saramandaia: <Saramandaia />,
-  sola: <Sola />,
-  vamosdesenhar: <Vamosdesenhar />,
+  abcd: () => <Abcd />,
+  diegoreis: () => <Advdiego />,
+  aline: () => <Aline />,
+  buzzfeat: () => <Buzzfeat />,
+  devoradores: () => <Devoradores />,
+  docbrown: () => <DocBrown />,
+  fit: () => <Fit />,
+  lojadaseda: () => <Lojadaseda />,
+  marcelod2: () => <Marcelod2 />,
+  paintings: () => <Paintings />,
+  pedrasul: () => <Pedrasul />,
+  penacova: () => <Penacova />,
+  privilege: () => <Privilege />,
+  qranio: () => <Qranio />,
+  reptil: () => <Reptil />,
+  rioproperty: () => <Rioproperty />,
+  saramandaia: () => <Saramandaia />,
+  sola: () => <Sola />,
+  vamosdesenhar: () => <Vamosdesenhar />,
 }
 
 export const Title = styled.h1`
@@ -121,7 +121,7 @@ export const Image = styled.img`
 
 export default ({ match }) => {
   try {
-    return pages[match.params.id]
+    return pages[match.params.id]()
   } catch (e) {
     return <NotFound />
   }
