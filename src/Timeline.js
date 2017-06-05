@@ -12,6 +12,7 @@ export default class extends Component {
     if (this.props.filter) {
       p = projects.filter(this.props.filter);
     }
+    p = p.sort((a, b) => b.year - a.year);
     return (
       <Timeline>
         {p.map(Project)}
