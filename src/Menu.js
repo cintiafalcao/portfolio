@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 
 const Menu = styled.nav`
@@ -25,6 +26,11 @@ const Li = styled.li`
   &:hover {
     text-decoration: line-through;
   }
+
+  & a {
+    color: white;
+    text-decoration: none;
+  }
 `
 
 export default class extends Component {
@@ -36,13 +42,14 @@ export default class extends Component {
     return (
       <Menu>
         <Ul>
-          <Li>About</Li>
+          <Li><Link to="/"> Home</Link></Li>
           <Li>Work</Li>
               <Ul>
-                <Li sub>Mobile</Li>
-                <Li sub>Website</Li>
-                <Li sub>Illustration</Li>
-                <Li sub>Logo</Li>
+                <Li sub><Link to="/category/mobile">Mobile</Link></Li>
+                <Li sub><Link to="/category/web">Website</Link></Li>
+                <Li sub><Link to="/category/illustration">Illustration</Link></Li>
+                <Li sub><Link to="/category/logo">Logo</Link></Li>
+                <Li sub><Link to="/category/painting">Painting</Link></Li>
               </Ul>
           <Li>Contact</Li>
         </Ul>

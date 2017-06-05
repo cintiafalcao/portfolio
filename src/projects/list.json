@@ -1,6 +1,7 @@
 [
   {
     "name": "Qranio",
+    "category": "mobile",
     "id": "qranio",
     "image": "./qranio.jpg",
     "description": "Qranio is an online platform...",
@@ -16,6 +17,7 @@
   },
   {
     "name": "Docbrown",
+    "category": "illustration",
     "id": "docbrown",
     "image": "./docbrown.jpg",
     "description": "Qranio is an online platform...",
@@ -31,6 +33,7 @@
   },
   {
     "name": "Pedra Sul",
+    "category": "mobile",
     "id": "pedrasul",
     "image": "./pedrasul.jpg",
     "description": "Qranio is an online platform...",
@@ -46,6 +49,7 @@
   },
   {
     "name": "Devoradores de Livros",
+    "category": "illustration",
     "id": "devoradores",
     "image": "./devoradores.jpg",
     "description": "Qranio is an online platform...",
@@ -61,6 +65,7 @@
   },
   {
     "name": "Saramandaia",
+    "category": "web",
     "id": "saramandaia",
     "image": "./saramandaia.jpg",
     "description": "Qranio is an online platform...",
@@ -76,6 +81,7 @@
   },
   {
     "name": "Diego Reis Advocacia",
+    "category": "logo",
     "id": "diegoreis",
     "image": "./adv_diego.jpg",
     "description": "Qranio is an online platform...",
@@ -91,6 +97,7 @@
   },
   {
     "name": "Vamos Desenhar",
+    "category": "illustration",
     "id": "vamosdesenhar",
     "image": "./vamosdesenhar.jpg",
     "description": "Qranio is an online platform...",
@@ -106,6 +113,7 @@
   },
   {
     "name": "BuzzFeat",
+    "category": "web",
     "id": "buzzfeat",
     "image": "./buzzfeat.jpg",
     "description": "Qranio is an online platform...",
@@ -121,6 +129,7 @@
   },
   {
     "name": "ABCD",
+    "category": "web",
     "id": "abcd",
     "image": "./abcd.jpg",
     "description": "Qranio is an online platform...",
@@ -136,6 +145,7 @@
   },
   {
     "name": "Aline Cruz",
+    "category": "web",
     "id": "aline",
     "image": "./aline.jpg",
     "description": "Qranio is an online platform...",
@@ -151,6 +161,7 @@
   },
   {
     "name": "Loja da Seda",
+    "category": "logo",
     "id": "lojadaseda",
     "image": "./lojadaseda.jpg",
     "description": "Qranio is an online platform...",
@@ -166,6 +177,7 @@
   },
   {
     "name": "Pé na Cova",
+    "category": "web",
     "id": "penacova",
     "image": "./penacova.jpg",
     "description": "Qranio is an online platform...",
@@ -181,6 +193,7 @@
   },
   {
     "name": "Sola",
+    "category": "web",
     "id": "sola",
     "image": "./sola.jpg",
     "description": "Qranio is an online platform...",
@@ -196,6 +209,7 @@
   },
   {
     "name": "Privilège",
+    "category": "web",
     "id": "privilege",
     "image": "./privileged2.jpg",
     "description": "Qranio is an online platform...",
@@ -211,6 +225,7 @@
   },
   {
     "name": "Rio Property Services",
+    "category": "web",
     "id": "rioproperty",
     "image": "./rioproperty.jpg",
     "description": "Qranio is an online platform...",
@@ -226,6 +241,7 @@
   },
   {
     "name": "Reptil",
+    "category": "web",
     "id": "reptil",
     "image": "./reptil.jpg",
     "description": "Qranio is an online platform...",
@@ -241,6 +257,7 @@
   },
   {
     "name": "FIT",
+    "category": "web",
     "id": "fit",
     "image": "./fit.jpg",
     "description": "Qranio is an online platform...",
@@ -256,6 +273,7 @@
   },
   {
     "name": "Marcelo D2",
+    "category": "web",
     "id": "marcelod2",
     "image": "./marcelod2.jpg",
     "description": "Qranio is an online platform...",
@@ -271,6 +289,7 @@
   },
   {
     "name": "Paintings",
+    "category": "painting",
     "id": "paintings",
     "image": "./paintings.jpg",
     "description": "Qranio is an online platform...",

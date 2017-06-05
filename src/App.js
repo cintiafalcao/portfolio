@@ -7,6 +7,7 @@ import {
 
 import Home from './Home';
 import Case from './Case';
+import Category from './Category';
 import './App.css';
 
 class App extends Component {
@@ -16,6 +17,7 @@ class App extends Component {
         <Switch>
           <Route exact path="/" component={Home}/>
           <Route exact path="/case/:id" component={Case}/>
+          <Route exact path="/category/:id" component={Category}/>
         </Switch>
       </Router>
     );
