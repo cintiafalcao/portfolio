@@ -134,7 +134,7 @@ export default project =>
     </Info>
     <Right>
       <Image src={thumb(project.image)}/>
-      <Link to={`case/${project.id}`}>
+      <Link to={`/case/${project.id}`}>
         <Button>View case</Button>
       </Link>
     </Right>
