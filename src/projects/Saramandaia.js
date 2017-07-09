@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { Image, Project, Title, Text } from '../Case.js'
+import { Image, ImageGroup, Project, Title, Text, Link } from '../Case.js'
 import cover from '../images/saramandaia/cover.jpg'
 import img_1 from '../images/saramandaia/f1.jpg'
 import img_2 from '../images/saramandaia/f2.jpg'
@@ -12,22 +12,26 @@ import img_7 from '../images/saramandaia/f7.jpg'
 
 export default props =>
   <Project>
-    <Title>Qranio</Title>
-    <Image src={cover} alt='Qranio Interna' />
-    <Text>Maecenas condimentum, risus non pellentesque semper, risus felis porta magna, convallis ultrices massa lacus vel nulla. Integer consequat quam luctus tellus auctor, molestie lobortis justo lobortis. Phasellus vel facilisis metus. Integer non velit purus. Ut in aliquam sem. Ut egestas orci a dui porttitor varius. Nulla varius ex eget leo efficitur laoreet. Sed nec nisl vel tortor suscipit venenatis at eget eros. Etiam urna neque, pretium at sapien sed, dignissim porta neque. Morbi et lacus facilisis, laoreet sem non, elementum quam. Ut porttitor mollis lacus at imperdiet. Sed vitae convallis purus. Maecenas dictum odio eget efficitur bibendum. Suspendisse vestibulum dolor in finibus consequat.</Text>
-    <Title>Choose palette</Title>
-    <Text>Maecenas condimentum, risus non pellentesque semper, risus felis porta magna, convallis ultrices massa lacus vel nulla. Integer consequat quam luctus tellus auctor, molestie lobortis justo lobortis. Phasellus vel facilisis metus. Integer non velit purus. Ut in aliquam sem. Ut egestas orci a dui porttitor varius. Nulla varius ex eget leo efficitur laoreet. Sed nec nisl vel tortor suscipit venenatis at eget eros. Etiam urna neque, pretium at sapien sed, dignissim porta neque. Morbi et lacus facilisis, laoreet sem non, elementum quam. Ut porttitor mollis lacus at imperdiet. Sed vitae convallis purus. Maecenas dictum odio eget efficitur bibendum. Suspendisse vestibulum dolor in finibus consequat.</Text>
-    <Image src={img_1} alt='Qranio Interna' />
-    <Title>Design icons</Title>
-    <Image src={img_2} alt='Qranio Interna' />
-    <Title>Design icons</Title>
-    <Image src={img_3} alt='Qranio Interna' />
-    <Title>Design icons</Title>
-    <Image src={img_4} alt='Qranio Interna' />
-    <Title>Design icons</Title>
-    <Image src={img_5} alt='Qranio Interna' />
-    <Title>Design icons</Title>
-    <Image src={img_6} alt='Qranio Interna' />
-    <Title>Design icons</Title>
-    <Image src={img_7} alt='Qranio Interna' />
+    <Title>Saramandaia</Title>
+    <Image src={cover} alt='Saramandaia' />
+    <Text>'O Fantástico Mundo de Saramandaia' it's a Brazilian TV series. The app was specially designed for tablet but works on web and mobile. Take a look: <Link href='http://especiaiss3.gshow.globo.com/novelas/saramandaia/o-livro-de-saramandaia/'>//especiaiss3.gshow.globo.com/novelas/saramandaia/o-livro-de-saramandaia/</Link></Text>
+    <Title>Backgrounds</Title>
+    <Text>Several fantastic backgrounds have been created for each page of the book.</Text>
+    
+    <ImageGroup>
+        <div><Image src={img_1} alt='Backgrounds' /></div>
+        <div><Image src={img_2} alt='Qranio Interna' /></div>
+    </ImageGroup>
+
+    <ImageGroup>
+        <div><Image src={img_3} alt='Backgrounds' /></div>
+        <div><Image src={img_4} alt='Qranio Interna' /></div>
+    </ImageGroup>
+
+    <Title>Elements of animation</Title>
+    <Image src={img_5} alt='Elements' />
+    <Title>Pages</Title>
+    <Text>Each page was about a character and had its characteristics and animated elements.</Text>
+    <Image src={img_6} alt='Pages' />
+    <Image src={img_7} alt='Pages' />
   </Project>

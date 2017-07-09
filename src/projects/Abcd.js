@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { Image, Project, Title, Text } from '../Case.js'
+import { Image, Project, Title, Text, Link } from '../Case.js'
 import cover from '../images/abcd/cover.jpg'
 import img_1 from '../images/abcd/f1.jpg'
 import img_2 from '../images/abcd/f2.jpg'
@@ -9,16 +9,19 @@ import img_4 from '../images/abcd/f4.jpg'
 
 export default props =>
   <Project>
-    <Title>Qranio</Title>
-    <Image src={cover} alt='Qranio Interna' />
-    <Text>Maecenas condimentum, risus non pellentesque semper, risus felis porta magna, convallis ultrices massa lacus vel nulla. Integer consequat quam luctus tellus auctor, molestie lobortis justo lobortis. Phasellus vel facilisis metus. Integer non velit purus. Ut in aliquam sem. Ut egestas orci a dui porttitor varius. Nulla varius ex eget leo efficitur laoreet. Sed nec nisl vel tortor suscipit venenatis at eget eros. Etiam urna neque, pretium at sapien sed, dignissim porta neque. Morbi et lacus facilisis, laoreet sem non, elementum quam. Ut porttitor mollis lacus at imperdiet. Sed vitae convallis purus. Maecenas dictum odio eget efficitur bibendum. Suspendisse vestibulum dolor in finibus consequat.</Text>
+    <Title>ABDC</Title>
+    <Image src={cover} alt='ABDC' />
+    <Text>Brazilian Academy of Civil Law
+Is a non-profit organization whose purpose is to research, promote and develop private law, bringing together both national and foreign scholars working with the conviction that the improvement of private law - the law of human daily life - will result in a society more just and supportive.</Text>
     <Title>Choose palette</Title>
-    <Text>Maecenas condimentum, risus non pellentesque semper, risus felis porta magna, convallis ultrices massa lacus vel nulla. Integer consequat quam luctus tellus auctor, molestie lobortis justo lobortis. Phasellus vel facilisis metus. Integer non velit purus. Ut in aliquam sem. Ut egestas orci a dui porttitor varius. Nulla varius ex eget leo efficitur laoreet. Sed nec nisl vel tortor suscipit venenatis at eget eros. Etiam urna neque, pretium at sapien sed, dignissim porta neque. Morbi et lacus facilisis, laoreet sem non, elementum quam. Ut porttitor mollis lacus at imperdiet. Sed vitae convallis purus. Maecenas dictum odio eget efficitur bibendum. Suspendisse vestibulum dolor in finibus consequat.</Text>
-    <Image src={img_1} alt='Qranio Interna' />
-    <Title>Design icons</Title>
-    <Image src={img_2} alt='Qranio Interna' />
-    <Title>Design icons</Title>
-    <Image src={img_3} alt='Qranio Interna' />
-    <Title>Design icons</Title>
-    <Image src={img_4} alt='Qranio Interna' />
+    <Text>It was necessary to use the colors of the logo but in a way that did not get too colorful. Then the green was discarded and the main palette was blue and yellow.</Text>
+    <Title>Screens</Title>
+    <Text>Visit the website <Link href='http://www.abdireitocivil.com.br'>www.abdireitocivil.com.br</Link></Text>
+    <Image src={img_1} alt='Home' />
+
+    <Image src={img_2} alt='ABDC' />
+
+    <Image src={img_3} alt='ABDC' />
+
+    <Image src={img_4} alt='ABDC' />
   </Project>

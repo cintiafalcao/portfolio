@@ -9,13 +9,13 @@ import img_3 from '../images/pedrasul/f3.jpg'
 export default props =>
   <Project>
     <Title>Pedra Sul</Title>
-    <Image src={cover} alt='Qranio Interna' />
-    <Text>Maecenas condimentum, risus non pellentesque semper, risus felis porta magna, convallis ultrices massa lacus vel nulla. Integer consequat quam luctus tellus auctor, molestie lobortis justo lobortis. Phasellus vel facilisis metus. Integer non velit purus. Ut in aliquam sem. Ut egestas orci a dui porttitor varius. Nulla varius ex eget leo efficitur laoreet. Sed nec nisl vel tortor suscipit venenatis at eget eros. Etiam urna neque, pretium at sapien sed, dignissim porta neque. Morbi et lacus facilisis, laoreet sem non, elementum quam. Ut porttitor mollis lacus at imperdiet. Sed vitae convallis purus. Maecenas dictum odio eget efficitur bibendum. Suspendisse vestibulum dolor in finibus consequat.</Text>
-    <Title>Choose palette</Title>
-    <Text>Maecenas condimentum, risus non pellentesque semper, risus felis porta magna, convallis ultrices massa lacus vel nulla. Integer consequat quam luctus tellus auctor, molestie lobortis justo lobortis. Phasellus vel facilisis metus. Integer non velit purus. Ut in aliquam sem. Ut egestas orci a dui porttitor varius. Nulla varius ex eget leo efficitur laoreet. Sed nec nisl vel tortor suscipit venenatis at eget eros. Etiam urna neque, pretium at sapien sed, dignissim porta neque. Morbi et lacus facilisis, laoreet sem non, elementum quam. Ut porttitor mollis lacus at imperdiet. Sed vitae convallis purus. Maecenas dictum odio eget efficitur bibendum. Suspendisse vestibulum dolor in finibus consequat.</Text>
-    <Image src={img_1} alt='Qranio Interna' />
-    <Title>Design icons</Title>
-    <Image src={img_2} alt='Qranio Interna' />
-    <Title>Design icons</Title>
-    <Image src={img_3} alt='Qranio Interna' />
+    <Image src={cover} alt='Pedra Sul' />
+    <Text>Pedra Sul has been operating in the market since 1999, with the mission of transforming mineral resources into building materials with sustainability.</Text>
+    <Title>Pedra Sul App</Title>
+    <Text>Create a simple, easy-to-use application that brings convenience to customers when calculating their spending on building materials.</Text>
+    <Image src={img_1} alt='Pedra Sul' />
+    <Title>Screens</Title>
+    <Image src={img_2} alt='Pedra Sul' />
+ <Text></Text>
+    <Image src={img_3} alt='Pedra Sul' />
   </Project>

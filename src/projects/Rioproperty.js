@@ -9,16 +9,15 @@ import img_4 from '../images/rioproperty/f4.jpg'
 
 export default props =>
   <Project>
-    <Title>Qranio</Title>
-    <Image src={cover} alt='Qranio Interna' />
-    <Text>Maecenas condimentum, risus non pellentesque semper, risus felis porta magna, convallis ultrices massa lacus vel nulla. Integer consequat quam luctus tellus auctor, molestie lobortis justo lobortis. Phasellus vel facilisis metus. Integer non velit purus. Ut in aliquam sem. Ut egestas orci a dui porttitor varius. Nulla varius ex eget leo efficitur laoreet. Sed nec nisl vel tortor suscipit venenatis at eget eros. Etiam urna neque, pretium at sapien sed, dignissim porta neque. Morbi et lacus facilisis, laoreet sem non, elementum quam. Ut porttitor mollis lacus at imperdiet. Sed vitae convallis purus. Maecenas dictum odio eget efficitur bibendum. Suspendisse vestibulum dolor in finibus consequat.</Text>
-    <Title>Choose palette</Title>
-    <Text>Maecenas condimentum, risus non pellentesque semper, risus felis porta magna, convallis ultrices massa lacus vel nulla. Integer consequat quam luctus tellus auctor, molestie lobortis justo lobortis. Phasellus vel facilisis metus. Integer non velit purus. Ut in aliquam sem. Ut egestas orci a dui porttitor varius. Nulla varius ex eget leo efficitur laoreet. Sed nec nisl vel tortor suscipit venenatis at eget eros. Etiam urna neque, pretium at sapien sed, dignissim porta neque. Morbi et lacus facilisis, laoreet sem non, elementum quam. Ut porttitor mollis lacus at imperdiet. Sed vitae convallis purus. Maecenas dictum odio eget efficitur bibendum. Suspendisse vestibulum dolor in finibus consequat.</Text>
-    <Image src={img_1} alt='Qranio Interna' />
-    <Title>Design icons</Title>
-    <Image src={img_2} alt='Qranio Interna' />
-    <Title>Design icons</Title>
-    <Image src={img_3} alt='Qranio Interna' />
-    <Title>Design icons</Title>
-    <Image src={img_4} alt='Qranio Interna' />
+    <Title>Rio Property Services</Title>
+    <Image src={cover} alt='Rio Property Services' />
+    <Title>About us</Title>
+    <Text>Is a specialist agency dealing with the unique demands of foreign buyers looking to buy properties to live in and/or rent out for investment purposes.</Text>
+    <Image src={img_1} alt='About us' />
+    <Title>Property finding</Title>
+    <Image src={img_2} alt='Property finding' />
+    <Title>Why invest in Rio</Title>
+    <Image src={img_3} alt='Why invest in Rio' />
+    <Title>Property Renovation</Title>
+    <Image src={img_4} alt='Property Renovation' />
   </Project>

@@ -5,17 +5,19 @@ import cover from '../images/lojadaseda/cover.jpg'
 import img_1 from '../images/lojadaseda/f1.jpg'
 import img_2 from '../images/lojadaseda/f2.jpg'
 import img_3 from '../images/lojadaseda/f3.jpg'
+import img_4 from '../images/lojadaseda/f4.jpg'
 
 export default props =>
   <Project>
-    <Title>Qranio</Title>
-    <Image src={cover} alt='Qranio Interna' />
-    <Text>Maecenas condimentum, risus non pellentesque semper, risus felis porta magna, convallis ultrices massa lacus vel nulla. Integer consequat quam luctus tellus auctor, molestie lobortis justo lobortis. Phasellus vel facilisis metus. Integer non velit purus. Ut in aliquam sem. Ut egestas orci a dui porttitor varius. Nulla varius ex eget leo efficitur laoreet. Sed nec nisl vel tortor suscipit venenatis at eget eros. Etiam urna neque, pretium at sapien sed, dignissim porta neque. Morbi et lacus facilisis, laoreet sem non, elementum quam. Ut porttitor mollis lacus at imperdiet. Sed vitae convallis purus. Maecenas dictum odio eget efficitur bibendum. Suspendisse vestibulum dolor in finibus consequat.</Text>
-    <Title>Choose palette</Title>
-    <Text>Maecenas condimentum, risus non pellentesque semper, risus felis porta magna, convallis ultrices massa lacus vel nulla. Integer consequat quam luctus tellus auctor, molestie lobortis justo lobortis. Phasellus vel facilisis metus. Integer non velit purus. Ut in aliquam sem. Ut egestas orci a dui porttitor varius. Nulla varius ex eget leo efficitur laoreet. Sed nec nisl vel tortor suscipit venenatis at eget eros. Etiam urna neque, pretium at sapien sed, dignissim porta neque. Morbi et lacus facilisis, laoreet sem non, elementum quam. Ut porttitor mollis lacus at imperdiet. Sed vitae convallis purus. Maecenas dictum odio eget efficitur bibendum. Suspendisse vestibulum dolor in finibus consequat.</Text>
-    <Image src={img_1} alt='Qranio Interna' />
-    <Title>Design icons</Title>
-    <Image src={img_2} alt='Qranio Interna' />
-    <Title>Design icons</Title>
-    <Image src={img_3} alt='Qranio Interna' />
+    <Title>Loja da Seda</Title>
+    <Image src={cover} alt='Loja da Seda' />
+    <Text>Loja da Seda is a shop specialized in fine fabrics</Text>
+    <Title>Logo</Title>
+    <Image src={img_1} alt='Logo' />
+    <Title>Logo studies</Title>
+    <Image src={img_2} alt='Studies' />
+    <Title>Logo studies</Title>
+    <Image src={img_3} alt='Studies' />
+    <Title>Store</Title>
+    <Image src={img_4} alt='Store' />
   </Project>

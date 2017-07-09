@@ -21,18 +21,18 @@ const Wrapper = styled.div`
 
 const Title = styled.h1`
   font-size: 3.5em;
-  color: orange;
+  color: #f29221;
   text-transform: uppercase;
 `
 
 const Subtitle = styled.h2`
   font-size: 2.5em;
   margin-top: -1.3em;
-  color: navy;
+  color: #251c45;
 `
 
 const Bio = styled.p`
-  font-size: 1.5em;
+  font-size: 1.2em;
 `
 
 const Right = styled.div`

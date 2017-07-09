@@ -1,6 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
 
+import { MenuBar } from './Menu'
+
 import Abcd from './projects/Abcd'
 import Advdiego from './projects/Advdiego'
 import Aline from './projects/Aline'
@@ -47,21 +49,42 @@ const pages = {
 }
 
 export const Title = styled.h1`
-  color: orange;
-  margin-top: 3em;
-  margin-bottom: 2em;
+  color: #f29221;
+  margin-top: 2em;
+  margin-bottom: 1.2em;
 `
 
 export const Text = styled.p`
   text-align: left;
-  font-size: 1.2em;
-  margin: 1em 40px;
+  font-size: 1em;
+  margin: 1em 80px;
+`
+
+export const Link = styled.a`
+  color: #f29221;
+  text-decoration: none;
+`
+
+export const Image = styled.img`
+  align-self: center;
+  max-width: 100%;
+  flex: 1;
+  margin-bottom: 20px;
+`
+
+export const ImageGroup = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  div {
+    margin: 0 10px;
+  }
 `
 
 const ProjectDiv = styled.div`
   text-align: center;
-  margin-left: 80px;
-  margin-right: 40px;
+  margin: 0 40px;
 `
 
 const ScrollBar = styled.div`
@@ -79,44 +102,7 @@ const ScrollIndicator = styled.div`
   left: 30px;
   width: 10px;
   height: 0px;
-  background: orange;
-`
-
-export class Project extends React.Component {
-  componentDidMount() {
-    document.onscroll = () => this.onScroll();
-    document.onresize = () => this.onScroll();
-    document.body.onload = () => this.onScroll();
-  }
-
-  componentWillUnmount() {
-    document.onscroll = undefined;
-    document.onresize = undefined;
-    document.body.onload = undefined;
-  }
-
-  onScroll() {
-    const height = this.scrollBar.clientHeight / this.project.clientHeight * this.scrollBar.clientHeight;
-    this.scrollIndicator.style.height = `${height}px`;
-    const top = document.body.scrollTop / (document.body.scrollHeight - window.innerHeight) * (this.scrollBar.clientHeight - height);
-    this.scrollIndicator.style.top = `${ 40 + top }px`;
-  }
-
-  render() {
-    return (
-      <ProjectDiv innerRef={ p => this.project = p }>
-        <ScrollBar innerRef={ sb => this.scrollBar = sb }>
-          <ScrollIndicator innerRef={ si => this.scrollIndicator = si }/>
-        </ScrollBar>
-        { this.props.children }
-      </ProjectDiv>
-    );
-  }
-}
-
-export const Image = styled.img`
-  align-self: center;
-  max-width: 100%;
+  background: #f29221;
 `
 
 export default ({ match }) => {
@@ -124,5 +110,38 @@ export default ({ match }) => {
     return pages[match.params.id]()
   } catch (e) {
     return <NotFound />
+  }
+}
+
+export class Project extends React.Component {
+  // componentDidMount() {
+  //   document.onscroll = () => this.onScroll();
+  //   document.onresize = () => this.onScroll();
+  //   document.body.onload = () => this.onScroll();
+  // }
+
+  // componentWillUnmount() {
+  //   document.onscroll = undefined;
+  //   document.onresize = undefined;
+  //   document.body.onload = undefined;
+  // }
+
+  // onScroll() {
+  //   const height = this.scrollBar.clientHeight / this.project.clientHeight * this.scrollBar.clientHeight;
+  //   this.scrollIndicator.style.height = `${height}px`;
+  //   const top = document.body.scrollTop / (document.body.scrollHeight - window.innerHeight) * (this.scrollBar.clientHeight - height);
+  //   this.scrollIndicator.style.top = `${ 40 + top }px`;
+  //   <ScrollBar innerRef={ sb => this.scrollBar = sb }>
+  //     <ScrollIndicator innerRef={ si => this.scrollIndicator = si }/>
+  //   </ScrollBar>
+  // }
+
+  render() {
+    return (
+      <ProjectDiv innerRef={ p => this.project = p }>
+        <MenuBar />
+        { this.props.children }
+      </ProjectDiv>
+    );
   }
 }

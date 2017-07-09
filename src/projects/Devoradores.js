@@ -10,18 +10,19 @@ import img_5 from '../images/devoradores/f5.jpg'
 
 export default props =>
   <Project>
-    <Title>Qranio</Title>
-    <Image src={cover} alt='Qranio Interna' />
-    <Text>Maecenas condimentum, risus non pellentesque semper, risus felis porta magna, convallis ultrices massa lacus vel nulla. Integer consequat quam luctus tellus auctor, molestie lobortis justo lobortis. Phasellus vel facilisis metus. Integer non velit purus. Ut in aliquam sem. Ut egestas orci a dui porttitor varius. Nulla varius ex eget leo efficitur laoreet. Sed nec nisl vel tortor suscipit venenatis at eget eros. Etiam urna neque, pretium at sapien sed, dignissim porta neque. Morbi et lacus facilisis, laoreet sem non, elementum quam. Ut porttitor mollis lacus at imperdiet. Sed vitae convallis purus. Maecenas dictum odio eget efficitur bibendum. Suspendisse vestibulum dolor in finibus consequat.</Text>
-    <Title>Choose palette</Title>
-    <Text>Maecenas condimentum, risus non pellentesque semper, risus felis porta magna, convallis ultrices massa lacus vel nulla. Integer consequat quam luctus tellus auctor, molestie lobortis justo lobortis. Phasellus vel facilisis metus. Integer non velit purus. Ut in aliquam sem. Ut egestas orci a dui porttitor varius. Nulla varius ex eget leo efficitur laoreet. Sed nec nisl vel tortor suscipit venenatis at eget eros. Etiam urna neque, pretium at sapien sed, dignissim porta neque. Morbi et lacus facilisis, laoreet sem non, elementum quam. Ut porttitor mollis lacus at imperdiet. Sed vitae convallis purus. Maecenas dictum odio eget efficitur bibendum. Suspendisse vestibulum dolor in finibus consequat.</Text>
-    <Image src={img_1} alt='Qranio Interna' />
-    <Title>Design icons</Title>
-    <Image src={img_2} alt='Qranio Interna' />
-    <Title>Design icons</Title>
-    <Image src={img_3} alt='Qranio Interna' />
-    <Title>Design icons</Title>
-    <Image src={img_4} alt='Qranio Interna' />
-    <Title>Design icons</Title>
-    <Image src={img_5} alt='Qranio Interna' />
+    <Title>Devoradores de Livros</Title>
+    <Image src={cover} alt='Devoradores de Livros' />
+    <Text>Devoradores de Livros is a reading habit site that provides a quiz on children's literature books and virtually rewards children according to their performance.</Text>
+    <Title>How it works</Title>
+    <Text>After reading a book in the library the child looks for whether a quiz about this book is already available on the site.The Quiz is a questionnaire with multiple choice questions about the intent of the text.
+After answering the quiz the child will be virtually rewarded and can customize and play with their own mascot.</Text>
+    <Image src={img_1} alt='Devoradores de Livros' />
+    <Title>Clothes</Title>
+    <Image src={img_2} alt='Clothes' />
+    <Title>Special cup accessories</Title>
+    <Image src={img_3} alt='Cup accessories' />
+    <Title>Accessories</Title>
+    <Image src={img_4} alt='Accessories' />
+    <Title>Customize the avatar</Title>
+    <Image src={img_5} alt='Avatar' />
   </Project>

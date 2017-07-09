@@ -15,6 +15,7 @@ const Info = styled.div`
 
   display: flex;
   flex-direction: column;
+  padding-right: 1em;
 `
 
 const Right = styled.div`
@@ -40,6 +41,7 @@ const Button = styled.button`
 const Name = styled.h1`
   font-weight: bold;
   font-size: 2.5em;
+  color: #251c45;
 `
 
 const Description = styled.p`
@@ -59,7 +61,9 @@ const MetaWrapper = styled.div`
   align-items: baseline;
 `
 
-const Title = styled.h2``
+const Title = styled.h2`
+  color: #251c45;
+`
 
 const Year = styled.p`
   font-weight: bold;
@@ -79,6 +83,8 @@ const Bold = styled.b`
 
 const Li = styled.li`
   list-style: square;
+  color: #251c45;
+
 `
 
 const ResponsibilitiesWrapper = styled.div`

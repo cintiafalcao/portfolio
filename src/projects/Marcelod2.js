@@ -8,11 +8,11 @@ import img_2 from '../images/marcelod2/f2.jpg'
 export default props =>
   <Project>
     <Title>Marcelo D2</Title>
-    <Image src={cover} alt='Qranio Interna' />
-    <Text>Maecenas condimentum, risus non pellentesque semper, risus felis porta magna, convallis ultrices massa lacus vel nulla. Integer consequat quam luctus tellus auctor, molestie lobortis justo lobortis. Phasellus vel facilisis metus. Integer non velit purus. Ut in aliquam sem. Ut egestas orci a dui porttitor varius. Nulla varius ex eget leo efficitur laoreet. Sed nec nisl vel tortor suscipit venenatis at eget eros. Etiam urna neque, pretium at sapien sed, dignissim porta neque. Morbi et lacus facilisis, laoreet sem non, elementum quam. Ut porttitor mollis lacus at imperdiet. Sed vitae convallis purus. Maecenas dictum odio eget efficitur bibendum. Suspendisse vestibulum dolor in finibus consequat.</Text>
-    <Title>Choose palette</Title>
-    <Text>Maecenas condimentum, risus non pellentesque semper, risus felis porta magna, convallis ultrices massa lacus vel nulla. Integer consequat quam luctus tellus auctor, molestie lobortis justo lobortis. Phasellus vel facilisis metus. Integer non velit purus. Ut in aliquam sem. Ut egestas orci a dui porttitor varius. Nulla varius ex eget leo efficitur laoreet. Sed nec nisl vel tortor suscipit venenatis at eget eros. Etiam urna neque, pretium at sapien sed, dignissim porta neque. Morbi et lacus facilisis, laoreet sem non, elementum quam. Ut porttitor mollis lacus at imperdiet. Sed vitae convallis purus. Maecenas dictum odio eget efficitur bibendum. Suspendisse vestibulum dolor in finibus consequat.</Text>
-    <Image src={img_1} alt='Qranio Interna' />
-    <Title>Design icons</Title>
-    <Image src={img_2} alt='Qranio Interna' />
+    <Image src={cover} alt='Marcelo D2' />
+    <Text>Marcelo D2 is a Brazilian rapper. A former vocalist of the band Planet Hemp, he started his solo career in 1998 with the album Eu Tiro É Onda.</Text>
+    <Title>Hip Hop promotion</Title>
+    <Text>The website was created to promote the action 'Meu Samba é Assim' where people sent tracks of music of their own.</Text>
+    <Image src={img_1} alt='Hip Hop promotion' />
+    <Text>The front-end of the site was developed in flash and the back-end in PHP. Re-creating an atmosphere that was consistent with the artist was a great challenge.</Text>
+    <Image src={img_2} alt='Marcelo D2' />
   </Project>
