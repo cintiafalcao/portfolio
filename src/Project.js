@@ -30,12 +30,35 @@ const Image = styled.img`
 
 const Button = styled.button`
   background: none;
+  position: relative;
   border-width: 1px;
   border-image: linear-gradient(to bottom, orange, purple) 1 100%;
   border-image-slice: 1;
   padding: 0.7em 2.5em;
   cursor: pointer;
   margin-top:5px;
+  -webkit-transition: color 200ms;
+  overflow: hidden;
+
+  &:hover {
+    color: white;
+  }
+
+  &::before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 100%;
+    background: linear-gradient(to bottom, orange, purple);
+    transition: top 200ms;
+    z-index: -1;
+  }
+
+  &:hover::before {
+    top: 0;
+  }
 `
 
 const Name = styled.h1`
@@ -129,14 +152,14 @@ export default project =>
   <Project key={project.name}>
     <Info>
       <Name>{project.name}</Name>
-      <Description>{project.description}</Description>
+      {project.description ? <Description>{project.description}</Description> : null}
       <Meta>
-        <When>{project.year}</When>
-        <Employer>{project.employer}</Employer>
+        {project.year ? <When>{project.year}</When> : null}
+        {project.employer ? <Employer>{project.employer}</Employer> : null}
       </Meta>
-      <Responsibilities items={project.responsibilities} />
-      <Challenges>{project.challenges}</Challenges>
-      <Results>{project.results}</Results>
+      {project.responsibilities ? <Responsibilities items={project.responsibilities} /> : null}
+      {project.challenges ? <Challenges>{project.challenges}</Challenges> : null}
+      {project.results ? <Results>{project.results}</Results> : null}
     </Info>
     <Right>
       <Image src={thumb(project.image)}/>

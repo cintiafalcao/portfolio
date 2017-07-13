@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import styled from 'styled-components'
+import styled, { keyframes} from 'styled-components'
 
 import ProfilePhoto from './images/home_photo.jpg'
 
@@ -40,6 +40,27 @@ const Right = styled.div`
   background: url(${ProfilePhoto});
 `
 
+const bounce = keyframes`
+  from {
+    margin-top: -2em;
+  }
+
+  to {
+    margin-top: -1.5em;
+  }
+`
+
+const Arrow = styled.div`
+  font-size: 3em;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 100%;
+  margin-top: -1.5em;
+  color: orange;
+  animation: ${bounce} 1.2s ease-in-out  infinite alternate;
+`
+
 export default class extends Component {
   render() {
     return (
@@ -51,8 +72,8 @@ export default class extends Component {
             <Bio>I'm an UI/UX designer &amp; visual designer from Brazil living in Amsterdam, with 13 years of experience.</Bio>
           </Wrapper>
         </Left>
-        <Right>
-        </Right>
+        <Right/>
+        <Arrow>⇓</Arrow>
       </Main>
     );
   }

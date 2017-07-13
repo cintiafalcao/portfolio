@@ -22,6 +22,7 @@ const Menu = styled.nav`
   display: flex;
   align-items: center;
   justify-content: center;
+  z-index: 999;
 `
 
 const Ul = styled.ul`
@@ -50,24 +51,24 @@ const Bar = styled.div`
   height: 50px;
   background: rgba(5, 5, 22, 0.9);
 `
+
 const Icon = styled.div`
   position: absolute;
   top: 10px;
   right: 20px;
-  font-size: 1em;
   background: none;
   border: none;
   cursor: pointer;
   color: white; 
 `
 
-export default class MenuView extends Component {
+export default class ActualMenu extends Component {
   render() {
     return (
       <Menu>
         <Icon onClick={this.props.onHide}><Image src={close} alt='close' /></Icon>
         <Ul>
-          <Li><Link to="/"> Home</Link></Li>
+          <Li><Link to="/">Home</Link></Li>
           <Li>Work</Li>
               <Ul>
                 <Li sub><Link to="/category/mobile">Mobile</Link></Li>
@@ -76,10 +77,40 @@ export default class MenuView extends Component {
                 <Li sub><Link to="/category/logo">Logo</Link></Li>
                 <Li sub><Link to="/category/painting">Painting</Link></Li>
               </Ul>
-          <Li>Contact</Li>
+          <Li onClick={this.props.onContact}>Contact</Li>
         </Ul>
       </Menu>
     );
+  }
+}
+
+class ContactView extends Component {
+  render() {
+    return (
+       <Menu>
+        <Icon onClick={this.props.onHide}><Image src={close} alt='close' /></Icon>
+        <Ul>
+          <Li><a href="https://www.behance.net/cintiafalcao">behance.net/cintiafalcao</a></Li>
+          <Li><a href="https://www.linkedin.com/in/cintiafalcao">linkedin.com/cintiafalcao</a></Li>
+          <Li><a href="mailto:cintialfalcao@gmail.com">cintiafalcao@gmail.com</a></Li>
+        </Ul>
+      </Menu>
+    );
+  }
+}
+
+class MenuView extends Component {
+  constructor(props) {
+    super(props);
+    this.state = { contactVisible: false};
+  }
+
+  render() {
+    if (this.state.contactVisible) {
+      return <ContactView onHide={() => this.setState({ contactVisible: false })} />
+    } else {
+      return <ActualMenu onHide={this.props.onHide} onContact={() => this.setState({ contactVisible: true })} />
+    }
   }
 }
 
@@ -96,16 +127,8 @@ export class MenuBar extends Component {
   }
 
   render() {
-    return (
-      <div>
-        { this.state.visible ? 
-          <MenuView onHide={() => this.setState({visible: false})} />
-          :
-          <Bar>
-            <Icon onClick={() => this.setState({visible: true})}><Image src={menu} alt='menu' /></Icon>
-          </Bar>
-        }
-      </div>
-    );
+    return this.state.visible
+    ? <MenuView onHide={() => this.setState({visible: false})} />
+    : <Bar><Icon onClick={() => this.setState({visible: true})}><Image src={menu} alt='menu' /></Icon></Bar>
   }
 }

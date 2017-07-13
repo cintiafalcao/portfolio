@@ -18,9 +18,8 @@ const Home = styled.main``
 
 const MenuButton = styled.button`
   position: absolute;
-  top: 20px;
+  top: 10px;
   right: 20px;
-  font-size: 2em;
   background: none;
   border: none;
   cursor: pointer;

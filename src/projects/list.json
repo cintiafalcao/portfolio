@@ -21,7 +21,7 @@
     "category": "illustration",
     "id": "docbrown",
     "image": "./docbrown.jpg",
-    "description": "Illustration for 'DocBrown', a Brazilian t-shirts brand.",
+    "description": "Illustration for 'DocBrown', a Brazilian brand of t-shirts.",
     "year": 2014,
     "employer": "Docbrown",
     "responsibilities": [
@@ -65,7 +65,7 @@
     "category": "web",
     "id": "saramandaia",
     "image": "./saramandaia.jpg",
-    "description": "Interactive web and mobile app for the TV Show O fantástico mundo de Saramandaia'. In the mobile version you can interact with the characters and elements by touching and moving the device. Design and development of the front-end with HTML, CSS3 and JavaScript.",
+    "description": "Interactive web and mobile app for the TV Show \"O fantástico mundo de Saramandaia\". In the mobile version you can interact with the characters and elements by touching and moving the device. Design and development of the front-end with HTML, CSS3 and JavaScript.",
     "year": 2014,
     "employer": "Ato Interativo",
     "responsibilities": [
@@ -89,8 +89,8 @@
       "Designed the logo",
       "Created all brand identity"
     ],
-    "challenges": " ",
-    "results": " ",
+    "challenges": "",
+    "results": "",
     "featured": true
   },
   {
@@ -134,8 +134,8 @@
     "responsibilities": [
       "Designed the website"
     ],
-    "challenges": " ",
-    "results": " "
+    "challenges": "",
+    "results": ""
   },
   {
     "name": "Aline Cruz",
@@ -148,8 +148,8 @@
     "responsibilities": [
       "Designed the website"
     ],
-    "challenges": " ",
-    "results": " "
+    "challenges": "",
+    "results": ""
   },
   {
     "name": "Loja da Seda",
@@ -162,8 +162,8 @@
     "responsibilities": [
       "Designed the logo"
     ],
-    "challenges": " ",
-    "results": " "
+    "challenges": "",
+    "results": ""
   },
   {
     "name": "Pé na Cova",
@@ -190,8 +190,8 @@
     "responsibilities": [
       "Designed the website"
     ],
-    "challenges": " ",
-    "results": " "
+    "challenges": "",
+    "results": ""
   },
   {
     "name": "Privilège",
@@ -218,8 +218,8 @@
     "responsibilities": [
       "Designed and developed the website"
     ],
-    "challenges": " ",
-    "results": " "
+    "challenges": "",
+    "results": ""
   },
   {
     "name": "Reptil",
@@ -232,8 +232,8 @@
     "responsibilities": [
       "Designed and developed the website"
     ],
-    "challenges": " ",
-    "results": " "
+    "challenges": "",
+    "results": ""
   },
   {
     "name": "FIT",
@@ -246,8 +246,8 @@
     "responsibilities": [
       "Designed and developed the website"
     ],
-    "challenges": " ",
-    "results": " "
+    "challenges": "",
+    "results": ""
   },
   {
     "name": "Marcelo D2",
@@ -277,8 +277,8 @@
       "Designed and programmed the Windows app",
       "Designed elements of the Android app"
     ],
-    "challenges": " ",
-    "results": " ",
+    "challenges": "",
+    "results": "",
     "featured": true
   }
 ]
