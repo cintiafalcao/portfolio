@@ -2,6 +2,12 @@ import React, { Component } from 'react'
 import styled, { keyframes} from 'styled-components'
 
 import ProfilePhoto from './images/home_photo.jpg'
+import arrow from './images/arrow.png'
+
+const Image = styled.img`
+  align-self: center;
+  max-width: 100%;
+`
 
 const Main = styled.section`
   display: flex;
@@ -13,6 +19,7 @@ const Left = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
+  background: #efedf2;
 `
 const Wrapper = styled.div`
   box-sizing: border-box;
@@ -73,7 +80,7 @@ export default class extends Component {
           </Wrapper>
         </Left>
         <Right/>
-        <Arrow>⇓</Arrow>
+        <Arrow><Image src={arrow} alt='arrow' /></Arrow>
       </Main>
     );
   }

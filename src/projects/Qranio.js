@@ -15,7 +15,6 @@ export default props =>
     <Text>Qranio is an online platform where people can check their knowledge and get prizes!
 
 By signing up, users can choose a category and answer questions. For each correct answer they will receive a specific amount of iQ$ (virtual currency).</Text>
-    <Title>Choose palette</Title>
 
     <Title>Home</Title>
     <Image src={img_1} alt='Home' />

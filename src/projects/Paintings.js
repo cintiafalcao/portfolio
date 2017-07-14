@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { Image, Project, Title, Text } from '../Case.js'
+import { Image, Project, Title, Text, Legend } from '../Case.js'
 import cover from '../images/paintings/cover.jpg'
 import img_1 from '../images/paintings/f1.jpg'
 import img_2 from '../images/paintings/f2.jpg'
@@ -15,17 +15,17 @@ export default props =>
     <Text>These screens were made in the last year of college.</Text>
 
     <Image src={img_1} alt='Paintings' />
-    <Text>Oil pastel on paper 100cmx70cm</Text>
+    <Legend>Oil pastel on paper 100cmx70cm</Legend>
 
     <Image src={img_2} alt='Paintings' />
-    <Text>Oil pastel on paper 100cmx70cm</Text>
+    <Legend>Oil pastel on paper 100cmx70cm</Legend>
 
     <Image src={img_3} alt='Paintings' />
-    <Text>Oil pastel on paper 200cmx100cm</Text>
+    <Legend>Oil pastel on paper 200cmx100cm</Legend>
 
     <Image src={img_4} alt='Paintings' />
-    <Text>Oil pastel on paper 250cmx100cm</Text>
+    <Legend>Oil pastel on paper 250cmx100cm</Legend>
 
     <Image src={img_5} alt='Paintings' />
-    <Text>Oil pastel on paper 350cmx100cm</Text>
+    <Legend>Oil pastel on paper 350cmx100cm</Legend>
   </Project>

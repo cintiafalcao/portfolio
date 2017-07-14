@@ -59,6 +59,12 @@ export const Text = styled.p`
   font-size: 1em;
   margin: 1em 80px;
 `
+export const Legend = styled.p`
+  text-align: right;
+  font-size: 1em;
+  margin: 0 80px 3em 80px;
+`
+
 
 export const Link = styled.a`
   color: #f29221;
