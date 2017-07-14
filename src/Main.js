@@ -19,7 +19,7 @@ const Left = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background: #efedf2;
+  background: #f6f5fa;
 `
 const Wrapper = styled.div`
   box-sizing: border-box;
