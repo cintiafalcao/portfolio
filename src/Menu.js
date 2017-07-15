@@ -59,7 +59,7 @@ const Icon = styled.div`
   background: none;
   border: none;
   cursor: pointer;
-  color: white; 
+  color: white;
 `
 
 export default class ActualMenu extends Component {

@@ -7,3 +7,5 @@ p {
 
 	color: #251c45;
 }
+
+*:focus {outline:none !important}

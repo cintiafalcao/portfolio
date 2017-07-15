@@ -23,6 +23,7 @@ const MenuButton = styled.button`
   background: none;
   border: none;
   cursor: pointer;
+
 `
 
 export default class extends Component {
