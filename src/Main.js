@@ -27,6 +27,7 @@ const Wrapper = styled.div`
 `
 
 const Title = styled.h1`
+  font-family: 'Lato', sans-serif;
   font-size: 3.5em;
   color: #f29221;
   text-transform: uppercase;
