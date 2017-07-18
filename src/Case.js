@@ -144,10 +144,12 @@ export class Project extends React.Component {
 
   render() {
     return (
-      <ProjectDiv innerRef={ p => this.project = p }>
+      <div>
         <MenuBar />
-        { this.props.children }
-      </ProjectDiv>
+        <ProjectDiv innerRef={ p => this.project = p }>
+          { this.props.children }
+        </ProjectDiv>
+      </div>
     );
   }
 }
