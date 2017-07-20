@@ -29,19 +29,22 @@ const Image = styled.img`
 `
 
 const Button = styled.button`
+  color: #251c45;
+  font-size: 0.9em;
   background: none;
   position: relative;
   border-width: 1px;
   border-image: linear-gradient(to bottom, orange, purple) 1 100%;
   border-image-slice: 1;
-  padding: 0.7em 2.5em;
+  padding: 0.5em 1.8em;
   cursor: pointer;
-  margin-top:5px;
+  margin-top:10px;
   -webkit-transition: color 200ms;
   overflow: hidden;
 
   &:hover {
     color: white;
+
   }
 
   &::before {
@@ -56,7 +59,7 @@ const Button = styled.button`
     z-index: -1;
   }
 
-  &:hover::before {
+  &:hover::before { 
     top: 0;
   }
 `
