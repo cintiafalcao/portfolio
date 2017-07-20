@@ -77,7 +77,9 @@ export default class extends Component {
           <Wrapper>
             <Title>Cíntia Falcão</Title>
             <Subtitle>UI/UX Designer</Subtitle>
-            <Bio>I'm an UI/UX designer &amp; visual designer from Brazil living in Amsterdam, with 13 years of experience.</Bio>
+            <Bio>I’m a UI/UX designer & visual designer from Brazil living in Amsterdam, with 13 years of experience.</Bio>
+
+<Bio>I’ve been always learning to improve my knowledge, face new challenges and do my best. I’m also passionate about art and animation.</Bio>
           </Wrapper>
         </Left>
         <Right/>
