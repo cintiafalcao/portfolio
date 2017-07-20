@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { Image, Project, Title, Text } from '../Case.js'
+import { Image, Project, Title, Text, Link } from '../Case.js'
 import cover from '../images/qranio/cover.jpg'
 import img_1 from '../images/qranio/f1.jpg'
 import img_2 from '../images/qranio/f2.jpg'
@@ -14,7 +14,10 @@ export default props =>
     <Image src={cover} alt='Qranio' />
     <Text>Qranio is an online platform where people can check their knowledge and get prizes!
 
-By signing up, users can choose a category and answer questions. For each correct answer they will receive a specific amount of iQ$ (virtual currency).</Text>
+By signing up, users can choose a category and answer questions. For each correct answer they will receive a specific amount of iQ$ (virtual currency).
+Take a look: <Link href='https://www.qranio.com/'>https://www.qranio.com/</Link></Text>
+
+
 
     <Title>Home</Title>
     <Image src={img_1} alt='Home' />

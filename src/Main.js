@@ -28,19 +28,26 @@ const Wrapper = styled.div`
 
 const Title = styled.h1`
   font-family: 'Lato', sans-serif;
-  font-size: 3.5em;
+  font-size: 3.2em;
   color: #f29221;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
 `
 
 const Subtitle = styled.h2`
-  font-size: 2.5em;
+  font-size: 2em;
   margin-top: -1.3em;
   color: #251c45;
 `
 
 const Bio = styled.p`
-  font-size: 1.2em;
+  margin-top: 2em;
+  font-size: 1em;
+
+  b {
+  font-size: 2.2em;
+  color: #251c45;
+
+  }
 `
 
 const Right = styled.div`
@@ -76,8 +83,7 @@ export default class extends Component {
         <Left>
           <Wrapper>
             <Title>Cíntia Falcão</Title>
-            <Subtitle>UI/UX Designer</Subtitle>
-            <Bio>I’m a UI/UX designer & visual designer from Brazil living in Amsterdam, with 13 years of experience.</Bio>
+            <Bio><b>I’m a UI/UX designer & visual designer</b> from Brazil living in Amsterdam, with 13 years of experience.</Bio>
 
 <Bio>I’ve been always learning to improve my knowledge, face new challenges and do my best. I’m also passionate about art and animation.</Bio>
           </Wrapper>
