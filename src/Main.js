@@ -27,16 +27,16 @@ const Wrapper = styled.div`
 `
 
 const Title = styled.h1`
-  font-family: 'Lato', sans-serif;
-  font-size: 3.2em;
-  color: #f29221;
+  /*font-family: 'Lato', sans-serif;*/
+  font-size: 3em;
+  color: #251c45;
   /*text-transform: uppercase;*/
 `
 
 const Subtitle = styled.h2`
   font-size: 2em;
   margin-top: -1.3em;
-  color: #251c45;
+  color: #f29221;
 `
 
 const Bio = styled.p`
@@ -45,7 +45,7 @@ const Bio = styled.p`
 
   b {
   font-size: 2.2em;
-  color: #251c45;
+  color: #f29221;
 
   }
 `
