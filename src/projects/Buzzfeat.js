@@ -19,23 +19,23 @@ export default props =>
     <Image src={cover} alt='Buzzfeat' />
     <Text>Buzzfeed was a web platform for development that allowed users to create their own fully customized web sites and also offer a series of pre-customized templates</Text>
     <Title>Design templates</Title>
-    <Image src={img_1} alt='Buzzfeat' />
+    <Image src={img_1} alt='Buzzfeat' /><br />
 
-    <Image src={img_2} alt='Buzzfeat' />
+    <Image src={img_2} alt='Buzzfeat' /><br />
 
-    <Image src={img_3} alt='Buzzfeat' />
+    <Image src={img_3} alt='Buzzfeat' /><br />
  
-    <Image src={img_4} alt='Buzzfeat' />
+    <Image src={img_4} alt='Buzzfeat' /><br />
 
-    <Image src={img_5} alt='Buzzfeat' />
+    <Image src={img_5} alt='Buzzfeat' /><br />
 
-    <Image src={img_6} alt='Buzzfeat' />
+    <Image src={img_6} alt='Buzzfeat' /><br />
 
-    <Image src={img_7} alt='Buzzfeat' />
+    <Image src={img_7} alt='Buzzfeat' /><br />
   
-    <Image src={img_8} alt='Buzzfeat' />
+    <Image src={img_8} alt='Buzzfeat' /><br />
    
-    <Image src={img_9} alt='Buzzfeat' />
+    <Image src={img_9} alt='Buzzfeat' /><br />
 
     <Image src={img_10} alt='Buzzfeat' />
   </Project>
