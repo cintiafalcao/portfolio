@@ -17,22 +17,6 @@
     "featured": true
   },
   {
-    "name": "Docbrown",
-    "category": "illustration",
-    "id": "docbrown",
-    "image": "./docbrown.jpg",
-    "description": "Illustration for 'DocBrown', a Brazilian brand of t-shirts.",
-    "year": 2014,
-    "employer": "Docbrown",
-    "responsibilities": [
-      "Suggested new topics",
-      "Designed the prints"
-    ],
-    "challenges": "We had some restriction like, size and number of colors so it was necessary to make many optimizations to obtain a result similar to the idealized",
-    "results": "It was a successful partnership that lasted 2 years and several prints still in the market for sale.",
-    "featured": true
-  },
-  {
     "name": "Pedra Sul",
     "category": "mobile",
     "id": "pedrasul",
@@ -78,6 +62,22 @@
     "featured": true
   },
   {
+    "name": "Docbrown",
+    "category": "illustration",
+    "id": "docbrown",
+    "image": "./docbrown.jpg",
+    "description": "Illustration for 'DocBrown', a Brazilian brand of t-shirts.",
+    "year": 2014,
+    "employer": "Docbrown",
+    "responsibilities": [
+      "Suggested new topics",
+      "Designed the prints"
+    ],
+    "challenges": "We had some restriction like, size and number of colors so it was necessary to make many optimizations to obtain a result similar to the idealized",
+    "results": "It was a successful partnership that lasted 2 years and several prints still in the market for sale.",
+    "featured": true
+  },
+  {
     "name": "Diego Reis Advocacia",
     "category": "logo",
     "id": "diegoreis",
@@ -90,8 +90,7 @@
       "Created all brand identity"
     ],
     "challenges": "",
-    "results": "",
-    "featured": true
+    "results": ""
   },
   {
     "name": "Vamos Desenhar",
@@ -105,7 +104,8 @@
       "Created the animations"
     ],
     "challenges": "The real job was figuring out the best software because there were a lot of steps for each caracters.",
-    "results": "Qranio is an online platform..."
+    "results": "Qranio is an online platform...",
+    "featured": true
   },
   {
     "name": "BuzzFeat",
