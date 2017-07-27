@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { Image, Project, Title, Text } from '../Case.js'
+import { Image, ImageGroup, Project, Title, Text } from '../Case.js'
 import cover from '../images/pedrasul/cover.jpg'
 import img_1 from '../images/pedrasul/f1.jpg'
 import img_2 from '../images/pedrasul/f2.jpg'
@@ -15,7 +15,12 @@ export default props =>
     <Text>Create a simple, easy-to-use application that brings convenience to customers when calculating their spending on building materials.</Text>
     <Image src={img_1} alt='Pedra Sul' />
     <Title>Screens</Title>
-    <Image src={img_2} alt='Pedra Sul' />
- <Text></Text>
-    <Image src={img_3} alt='Pedra Sul' />
+
+
+    <ImageGroup>
+        <div><Image src={img_2} alt='Pedra Sul' /></div>
+        <div><Image src={img_3} alt='Pedra Sul' /></div>
+    </ImageGroup>
+
+
   </Project>
