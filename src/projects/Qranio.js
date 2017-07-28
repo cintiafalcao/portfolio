@@ -3,6 +3,8 @@ import React from 'react'
 import { Image, Project, Title, Text, Link } from '../Case.js'
 import cover from '../images/qranio/cover.jpg'
 import icon from '../images/qranio/icon_set.png'
+import paleta from '../images/qranio/paleta.png'
+import welcome from '../images/qranio/laila.jpg'
 import img_1 from '../images/qranio/f1.jpg'
 import img_2 from '../images/qranio/f2.jpg'
 import img_3 from '../images/qranio/f3.jpg'
@@ -18,9 +20,14 @@ export default props =>
 By signing up, users can choose a category and answer questions. For each correct answer they will receive a specific amount of iQ$ (virtual currency).
 Take a look: <Link href='https://www.qranio.com/'>https://www.qranio.com/</Link></Text>
 
+    <Title>Welcome screen</Title>
+    <Image src={welcome} alt='welcome' />
 
-    <Title>Set Icons</Title>
+    <Title>Icongraphy</Title>
     <Image src={icon} alt='icon' />
+    <Title>Palette</Title>
+    <Image src={paleta} alt='paleta' />
+
     <Title>Home</Title>
     <Image src={img_1} alt='Home' />
     <Title>Profile</Title>
