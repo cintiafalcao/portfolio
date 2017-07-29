@@ -5,6 +5,7 @@ import cover from '../images/qranio/cover.jpg'
 import icon from '../images/qranio/icon_set.png'
 import paleta from '../images/qranio/paleta.png'
 import welcome from '../images/qranio/laila.jpg'
+import play from '../images/qranio/play.jpg'
 import img_1 from '../images/qranio/f1.jpg'
 import img_2 from '../images/qranio/f2.jpg'
 import img_3 from '../images/qranio/f3.jpg'
@@ -36,8 +37,8 @@ Take a look: <Link href='https://www.qranio.com/'>https://www.qranio.com/</Link>
     <Title>Categories</Title>
     <Image src={img_3} alt='Categories' />
     <Text>All multiple choice questions are displayed in different categories, such as geography, history, sports, literature, TV, movies, and automobiles. With the virtual currency iQ$, users can buy tickets, cosmetics, electronics, clothes, coupons, services, courses, etc.</Text>
-    <Title>Game flow</Title>
-    <Image src={img_4} alt='Flow' />
+    <Title>Play</Title>
+    <Image src={play} alt='play' />
     <Title>Prizes</Title>
     <Image src={img_5} alt='Prizes' />
     <Text>Users can redeem prizes anytime! Visit virtual store; choose your favorite product or service. Verify the stock availability and your redemption limit per month. Check if you have enough iQ$ to redeem the prize. The more you play, the richer you become! Play more to redeem more prizes!</Text>
