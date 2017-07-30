@@ -18,11 +18,10 @@ const Menu = styled.nav`
   bottom: 0;
   right: 0;
   background: rgba(5, 5, 22, 0.95);
-
   display: flex;
   align-items: center;
   justify-content: center;
-  z-index: 999;
+  z-index: 2;
 `
 
 const Ul = styled.ul`
@@ -50,6 +49,7 @@ const Bar = styled.div`
   left: 0px;
   height: 50px;
   background: rgba(5, 5, 22, 0.9);
+  z-index: 1;
 `
 
 const Icon = styled.div`

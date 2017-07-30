@@ -12,7 +12,6 @@ const Project = styled.article`
 
 const Info = styled.div`
   flex: 1;
-
   display: flex;
   flex-direction: column;
   padding-right: 1em;
