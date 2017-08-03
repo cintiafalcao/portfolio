@@ -3,6 +3,7 @@ import styled, { keyframes} from 'styled-components'
 
 import ProfilePhoto from './images/home_photo.jpg'
 import arrow from './images/arrow.png'
+import logo from './images/logo.png'
 
 const Image = styled.img`
   align-self: center;
@@ -74,6 +75,11 @@ const Arrow = styled.div`
   color: orange;
   animation: ${bounce} 1.2s ease-in-out  infinite alternate;
 `
+const Logo = styled.div`
+  position: relative;
+  width: 100%;
+  text-align: center;
+`
 
 export default class extends Component {
   render() {
@@ -81,6 +87,7 @@ export default class extends Component {
       <Main>
         <Left>
           <Wrapper>
+
             <Title>Cíntia Falcão</Title>
             <Bio><b>I’m a UI/UX designer & visual designer</b> from Brazil living in Amsterdam, with 13 years of experience.</Bio>
 

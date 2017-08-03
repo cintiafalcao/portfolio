@@ -5,6 +5,8 @@ import styled from 'styled-components'
 import close from './images/close.png'
 import menu from './images/menu.png'
 
+import logoBar from './images/logo_bar.png'
+
 
 const Image = styled.img`
   align-self: center;
@@ -59,7 +61,13 @@ const Icon = styled.div`
   background: none;
   border: none;
   cursor: pointer;
-  color: white;
+`
+const LogoIcon = styled.div`
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  border: none;
+  cursor: pointer;
 `
 
 export default class ActualMenu extends Component {
@@ -129,6 +137,6 @@ export class MenuBar extends Component {
   render() {
     return this.state.visible
     ? <MenuView onHide={() => this.setState({visible: false})} />
-    : <Bar><Icon onClick={() => this.setState({visible: true})}><Image src={menu} alt='menu' /></Icon></Bar>
+    : <Bar><LogoIcon><Image src={logoBar} alt='menu' /></LogoIcon><Icon onClick={() => this.setState({visible: true})}><Image src={menu} alt='menu' /></Icon></Bar>
   }
 }
