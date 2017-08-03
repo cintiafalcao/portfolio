@@ -137,6 +137,6 @@ export class MenuBar extends Component {
   render() {
     return this.state.visible
     ? <MenuView onHide={() => this.setState({visible: false})} />
-    : <Bar><LogoIcon><Image src={logoBar} alt='menu' /></LogoIcon><Icon onClick={() => this.setState({visible: true})}><Image src={menu} alt='menu' /></Icon></Bar>
+    : <Bar><LogoIcon><Link to="/"><Image src={logoBar} alt='menu' /></Link></LogoIcon><Icon onClick={() => this.setState({visible: true})}><Image src={menu} alt='menu' /></Icon></Bar>
   }
 }
