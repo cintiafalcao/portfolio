@@ -33,7 +33,7 @@ const Button = styled.button`
   background: none;
   position: relative;
   border-width: 1px;
-  border-image: linear-gradient(to bottom, orange, purple) 1 100%;
+  border-image: linear-gradient(to bottom, #f29221, #4c388f) 1 100%;
   border-image-slice: 1;
   padding: 0.5em 1.8em;
   cursor: pointer;
@@ -53,7 +53,7 @@ const Button = styled.button`
     height: 100%;
     left: 0;
     top: 100%;
-    background: linear-gradient(to bottom, orange, purple);
+    background: linear-gradient(to bottom, #f29221, #4c388f);
     transition: top 200ms;
     z-index: -1;
   }

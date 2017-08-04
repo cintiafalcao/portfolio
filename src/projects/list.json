@@ -124,34 +124,6 @@
     "results": "When I left the company the tool was not open to the public but it was a great challenge."
   },
   {
-    "name": "ABCD",
-    "category": "web",
-    "id": "abcd",
-    "image": "./abcd.jpg",
-    "description": "Design of the website for ABCD (Brazilian Academy of Civil Law). Freelance work for Aprimorar, a Brazilian Web agency.",
-    "year": 2013,
-    "employer": "Aprimorar",
-    "responsibilities": [
-      "Designed the website"
-    ],
-    "challenges": "",
-    "results": ""
-  },
-  {
-    "name": "Aline Cruz",
-    "category": "web",
-    "id": "aline",
-    "image": "./aline.jpg",
-    "description": "Design of the website for architect Aline Cruz. Freelance work for Aprimorar, a Brazilian web agency.",
-    "year": 2013,
-    "employer": "Aprimorar",
-    "responsibilities": [
-      "Designed the website"
-    ],
-    "challenges": "",
-    "results": ""
-  },
-  {
     "name": "Loja da Seda",
     "category": "logo",
     "id": "lojadaseda",

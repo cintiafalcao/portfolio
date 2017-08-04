@@ -41,12 +41,12 @@ const Subtitle = styled.h2`
 
 const Bio = styled.p`
   margin-top: 2em;
-  font-size: 1em;
+  font-size: 2em;
+  color: #251c45;
+
 
   b {
-  font-size: 2.2em;
-  color: #f29221;
-
+  font-size: 1.2em;
   }
 `
 
@@ -87,11 +87,10 @@ export default class extends Component {
       <Main>
         <Left>
           <Wrapper>
+            <Logo><Image src={logo} alt='logo' /></Logo>
+            <Bio>Hi, my name is Cíntia Falcão I’m a <b>UI/UX designer</b> and <b>visual designer</b></Bio>
 
-            <Title>Cíntia Falcão</Title>
-            <Bio><b>I’m a UI/UX designer & visual designer</b> from Brazil living in Amsterdam, with 13 years of experience.</Bio>
 
-<Bio>I’ve been always learning to improve my knowledge, face new challenges and do my best. I’m also passionate about art and animation.</Bio>
           </Wrapper>
         </Left>
         <Right/>
