@@ -7,14 +7,14 @@ const thumb = require.context('./thumbs', true);
 const Project = styled.article`
   display: flex;
   flex-direction: row;
-  padding: 2em;
+  padding: 4em;
 `
 
 const Info = styled.div`
   flex: 1;
   display: flex;
   flex-direction: column;
-  padding-right: 1em;
+  padding-right: 2em;
 `
 
 const Right = styled.div`
@@ -67,6 +67,8 @@ const Name = styled.h1`
   font-weight: bold;
   font-size: 2.5em;
   color: #251c45;
+  -webkit-margin-before: 0.5em;
+  -webkit-margin-after: 1em;
 `
 
 const Description = styled.p`
@@ -88,6 +90,7 @@ const MetaWrapper = styled.div`
 
 const Title = styled.h2`
   color: #251c45;
+
 `
 
 const Year = styled.p`
