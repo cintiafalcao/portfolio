@@ -57,7 +57,7 @@ export const Title = styled.h1`
 export const Text = styled.p`
   text-align: left;
   font-size: 1em;
-  margin: 1em 80px;
+  margin: 1em 10em;
 `
 export const Legend = styled.p`
   text-align: right;
@@ -84,7 +84,7 @@ export const ImageGroup = styled.div`
   justify-content: center;
 
   div {
-    margin: 0 10px;
+    margin: 20px 20px;
   }
 `
 
